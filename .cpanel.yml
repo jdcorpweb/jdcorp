@@ -1,9 +1,13 @@
 ---
 deployment:
-      tasks:
-        - export DEPLOYPATH=/home/<jdcorp>/public_html 
-        - /bin cp * $DEPLOYPATH                           
-        - /bin cp /<sub_folder>/* $DEPLOYPATH            
-        - /bin/cp -r * $DEPLOYPATH                        
+  tasks:
+    - export DEPLOYPATH=/home/jdcorp/public_html/
+    - /bin/cp -R .vscode $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    /bin/cp index.html $DEPLOYPATH              
         
         
