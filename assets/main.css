@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root{
-    --mainbg-color:#000;
+    --mainbg-color:#c58080;
 
 }
 html,
@@ -671,6 +671,14 @@ a[href], a[data-href] {
     width: 100%;
     height: 60vh;
     background-image: url('./img/flyingmachine.jpeg');
+    background-position: center top;
+	background-size:cover;
+  }
+
+ #er{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/9');
     background-position: center top;
 	background-size:cover;
   }
