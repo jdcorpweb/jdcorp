@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root{
-    --mainbg-color:#c58080;
+    --mainbg-color:#000000;
 
 }
 html,
@@ -689,7 +689,7 @@ a[href], a[data-href] {
 
   iframe{
     filter: grayscale(10);
-    width: 100%;
+    width: auto;
     height: 50vh;
     overflow: hidden;
   }
