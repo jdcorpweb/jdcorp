@@ -4,11 +4,8 @@
 /* root */
 :root{
     --mainbg-color:#000000;
-<<<<<<< HEAD
     --secondary-color:#ffffff;
     --thirdparty-color:#d3a9a9;
-=======
->>>>>>> b40cfdc773265476bde752ca81e1c9e9bded5552
 
 }
 html,body {
@@ -800,5 +797,5 @@ button{
     border-radius: 2px;
     padding: 10px;
     border-color: #fff;
-        
+
 }
